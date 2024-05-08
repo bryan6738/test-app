@@ -6,8 +6,7 @@ import basicSsl from '@vitejs/plugin-basic-ssl';
 export default defineConfig({
   plugins: [react(), basicSsl()],
   build: {
-    outDir: './docs',
-    // target: 'esnext',
+    outDir: './docs'
   },
-  base: './'
+  base: '/vite-boilerplate/'
 });
